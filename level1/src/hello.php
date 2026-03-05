@@ -1,5 +1,3 @@
 <?php
 
-function som(int $a, int $b): int {
-    // TODO: Vul dit in
-}
+echo "Hello world!";

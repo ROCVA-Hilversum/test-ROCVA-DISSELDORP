@@ -1,5 +1,9 @@
 <?php
 
-function som(int $a, int $b): int {
-    // TODO: Vul dit in
-}
+$tekst = "Tekst in een variable" . PHP_EOL;
+
+echo $tekst;
+echo $tekst;
+echo $tekst;
+echo $tekst;
+echo $tekst;
