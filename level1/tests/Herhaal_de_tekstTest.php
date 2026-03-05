@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-final class Hello2Test extends TestCase
+final class Herhaal_de_tekstTest extends TestCase
 {
 
     /**

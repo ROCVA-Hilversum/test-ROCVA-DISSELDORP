@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-final class HoiIedereenTest extends TestCase
+final class Hoi_iedereenTest extends TestCase
 {
     /**
      * @message: Hier wordt gecontroleerd of het programma
