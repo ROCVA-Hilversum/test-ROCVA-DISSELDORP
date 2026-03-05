@@ -12,7 +12,7 @@ final class Herhaal_de_tekstTest extends TestCase
      */
     public function testZelfdeTekstPrintVijfKeer(): void
     {
-        $output = shell_exec('php -w ' . getenv('SOURCE_DIR') . 'hello2.php');
+        $output = shell_exec('php -w ' . getenv('SOURCE_DIR') . '/src/hello2.php');
         $result = substr_count($output, '$tekst');
         $this->assertEquals(6, $result);
     }
@@ -23,7 +23,7 @@ final class Herhaal_de_tekstTest extends TestCase
      */
     public function testGebruiktEenVariableMetDeNaamTekst(): void
     {
-        $output = shell_exec('php -w ' . getenv('SOURCE_DIR') . 'hello.php');
+        $output = shell_exec('php -w ' . getenv('SOURCE_DIR') . '/src/hello2.php');
         $this->assertMatchesRegularExpression('/\$tekst = (\'|")(.+)\1\s?(\.\sPHP_EOL){0,1};/', $output);
     }
 }

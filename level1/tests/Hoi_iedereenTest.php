@@ -11,7 +11,7 @@ final class Hoi_iedereenTest extends TestCase
      */
     public function testProgrammaPrintHelloWorld(): void
     {
-        $output = shell_exec('php -w ' . getenv('SOURCE_DIR') . 'hello.php');
+        $output = shell_exec('php -w ' . getenv('SOURCE_DIR') . '/src/hello.php');
         $this->assertStringContainsStringIgnoringCase('Hello world', $output);
     }
 }
