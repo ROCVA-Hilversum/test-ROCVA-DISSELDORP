@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-final class BLASTTest extends TestCase
+final class HoiIedereenTest extends TestCase
 {
     /**
      * @message: Hier wordt gecontroleerd of het programma
